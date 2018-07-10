@@ -23,7 +23,7 @@ class Animal
 end
 
 class Conejo < Animal
-  include Herviboro 
+  include Herviboro
   def initialize(name)
     @name = name
   end

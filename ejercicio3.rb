@@ -65,11 +65,6 @@ end
 # puts b.engine_start
 # puts Car.contador
 
-# c = Car.new('Toyota', 2015)
-# puts "Modelo: #{c.model}, Año#{c.year}"
-# puts c.engine_start
-# puts Car.contador
-
 puts Car.new('Toyota', '2015').engine_start
 
 10.times do |i|
@@ -77,16 +72,6 @@ puts Car.new('Toyota', '2015').engine_start
   puts year = 2000 + i
 Car.new(model, year)
 end
-
-#puts Car.new(model, year)
-
-# d = Car.new('Toyota', 2015)
-# puts d.model
-# puts d.year
-# puts d.engine_start
-# puts Car.contador
-# puts b.model
-# puts b.year
 
 
 
